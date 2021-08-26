@@ -1,3 +1,5 @@
 # procedural terrain generation
-this repo is for procedural terrain generation <br />
+
+I made procedural terrain generator which uses two layers of Perlin noise <br/>
+
 check it out [HERE](https://ayushmantripathy.github.io/procedural_terrain_generation/)
