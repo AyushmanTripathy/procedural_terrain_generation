@@ -20,6 +20,30 @@ body {
   color: $sec;
 }
 
+input {
+  margin: 10px;
+
+  background-color: $bg;
+  color: $sec;
+
+  padding: 10px;
+
+  border: 1px $sec solid;
+  border-radius: 8px;
+}
+
+input[type="number"] {
+  width: 30px;
+}
+
+section {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  height: fit-content;
+}
+
 canvas {
   height: 100%;
   width: 100%;

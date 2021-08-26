@@ -15,8 +15,13 @@ let running = false;
 
 start();
 function start() {
+  if (running) return;
   running = true;
   init(0);
+}
+
+function changeScale(index, value) {
+  scales[index] = value;
 }
 
 function stop() {
@@ -56,13 +61,13 @@ function getColor(num) {
   //snow
   if (num <= 20) return "white";
   //stones
-  if (num <= 30) return "#331a00";
+  if (num <= 35) return "#331a00";
   //tree
   if (num <= 40) return "#145214";
   //grass
   if (num <= 60) return "#1f7a1f";
   //sand
-  if (num <= 70) return "#eed757";
+  if (num <= 78) return "#eed757";
   //water
   if (num <= 80) return "#0066ff";
   //deep sea

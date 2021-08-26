@@ -8,6 +8,12 @@
     <title>Terrain generation</title>
   </head>
   <body>
+    <section>
+      <input type="button" value="Start" onclick="start()" />
+      <input type="button" value="Stop" onclick="stop()" />
+      <input type="number" value="40" oninput="changeScale(0,this.value)" />
+      <input type="number" value="10" oninput="changeScale(1,this.value)" />
+    </section>
     <canvas height="600px" width="900px"></canvas>
     <script defer src="./src/scripts/noise.js"></script>
     <script defer src="./src/scripts/script.js"></script>

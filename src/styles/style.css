@@ -16,6 +16,28 @@ body {
   color: #bbb;
 }
 
+input {
+  margin: 10px;
+  background-color: #202124;
+  color: #bbb;
+  padding: 10px;
+  border: 1px #bbb solid;
+  border-radius: 8px;
+}
+
+input[type="number"] {
+  width: 30px;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 canvas {
   height: 100%;
   width: 100%;
