@@ -24,6 +24,10 @@ function changeScale(index, value) {
   scales[index] = value;
 }
 
+function changePersistance(index, value) {
+  persistance[index] = value;
+}
+
 function stop() {
   running = false;
 }
@@ -67,7 +71,7 @@ function getColor(num) {
   //grass
   if (num <= 60) return "#1f7a1f";
   //sand
-  if (num <= 78) return "#eed757";
+  if (num <= 63) return "#eed757";
   //water
   if (num <= 80) return "#0066ff";
   //deep sea
